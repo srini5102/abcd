@@ -16,7 +16,7 @@ public class Demo {
 		System.setProperty("webdriver.chrome.driver", "//D:\\selenium\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
-		driver.get("http://www.salesforce.com");
+		driver.get("http://www. cccsalesforce.com");
 
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src, new File("D:\\scrnshot\\sc1.png"));
